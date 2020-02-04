@@ -1,13 +1,14 @@
 @Library('prokarmalibrary1')_
 pipeline {
-
+    agent any
+ /* 
     agent {
 
         label "DockerSlaveAP52"
 
     }
 
-   /*  tools {
+   tools {
 
         // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
 
