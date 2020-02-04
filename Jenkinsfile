@@ -7,7 +7,7 @@ pipeline {
 
     }
 
-    tools {
+   /*  tools {
 
         // Note: this should match with the tool name configured in your jenkins instance (JENKINS_URL/configureTools/)
 
@@ -15,7 +15,7 @@ pipeline {
       //  jdk "jdk1.8.0_131"
 
     }
-
+*/
 environment {
         //  Define all variables
         
